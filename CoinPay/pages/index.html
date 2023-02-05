@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/media.css">
+        <title>CoinPay</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="header">
+                    <div class="logo"></div>
+                </div>
+
+                <div class="await_payment">
+                    <div class="title">
+                        <div class="loader">
+                            <div></div>
+                        </div>
+                        <div class="text">Awaiting Payment</div>
+                    </div>
+
+                    <div class="time">
+                        <p>15:00</p>
+                    </div>
+                </div>
+
+                <div class="pay_with">
+                    <p>Pay with</p>
+
+                    <div class="crypto">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_5_44)">
+                            <path d="M0 13C0 20.1796 5.82042 26 13 26C20.1796 26 26 20.1796 26 13C26 5.82042 20.1796 0 13 0C5.82042 0 0 5.82042 0 13Z" fill="#FFC63D"/>
+                            <g clip-path="url(#clip1_5_44)">
+                            <path d="M18.822 11.6159C19.0475 10.0821 17.884 9.25204 16.2785 8.70169L16.8016 6.61756L15.5389 6.30178L15.0338 8.33177C14.7001 8.25058 14.3573 8.16938 14.0146 8.0972L14.5197 6.05818L13.2569 5.7424L12.7428 7.81751C12.4632 7.75435 12.1926 7.6912 11.931 7.62804V7.61902L10.1812 7.18595L9.84748 8.53929C9.84748 8.53929 10.7855 8.75582 10.7675 8.76484C11.2816 8.89115 11.3718 9.234 11.3538 9.50466L10.7585 11.8775C10.7945 11.8865 10.8396 11.8955 10.8938 11.9226C10.8487 11.9136 10.8036 11.9046 10.7585 11.8865L9.92866 15.2067C9.86552 15.3601 9.70317 15.5947 9.3514 15.5044C9.36042 15.5225 8.43139 15.2789 8.43139 15.2789L7.80002 16.7315L9.45061 17.1465C9.75728 17.2277 10.0549 17.2998 10.3526 17.3811L9.82944 19.4832L11.0922 19.799L11.6153 17.7149C11.9581 17.8051 12.3008 17.8953 12.6255 17.9765L12.1114 20.0516L13.3742 20.3674L13.8973 18.2652C16.062 18.6712 17.6856 18.5088 18.362 16.551C18.9122 14.9811 18.335 14.0699 17.1985 13.4744C18.0373 13.285 18.6597 12.7346 18.822 11.6159ZM15.9267 15.6759C15.5389 17.2457 12.8871 16.3976 12.0302 16.1811L12.7247 13.3932C13.5816 13.6098 16.3416 14.0338 15.9267 15.6759ZM16.3236 11.5888C15.9628 13.0233 13.762 12.2925 13.0495 12.1121L13.6808 9.58586C14.3934 9.76631 16.6934 10.1001 16.3236 11.5888Z" fill="white" fill-opacity="0.88"/>
+                            </g>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_5_44">
+                            <rect width="26" height="26" fill="white"/>
+                            </clipPath>
+                            <clipPath id="clip1_5_44">
+                            <rect width="14.3" height="13.65" fill="white" transform="translate(5.85001 6.17499)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                            
+                        <p>Bitcoin (BTC)</p>
+                    </div>
+                </div>
+
+                <div class="coin_info">
+                    <p class="site_url">texthere.com</p>
+
+                    <div class="right">
+                        <div class="coin-wrap">
+                            <p class="balance">0.000209332 BTC</p>
+                            <p class="coin_value">1 BTC = $24.002.50 (USD)</p>
+                        </div>
+                        <div class="arrow">&#10094;</div>
+                    </div>
+                </div>
+
+                <div class="all-info">
+                    <div class="order_amount">
+                        <p>Order Amount</p>
+                        <div class="amount-wrap">
+                            <p class="coin_amount">0.00041459 BTC</p>
+                            <p class="usd_amount">$10.00 (USD)</p>
+                        </div>
+                    </div>
+                    <div class="network_cost">
+                        <p>Network Cost</p>
+                        <p class="network_cost_value">1 transaction x 0.000001 BTC</p>
+                    </div>
+                    <div class="already_paid">
+                        <p>Already Paid</p>
+                        <p class="already_paid_value">-0.00000000 BTC</p>
+                    </div>
+                    <div class="due">
+                        <p>Due</p>
+                        <p class="due_value">0.00041559 BTC</p>
+                    </div>
+                </div>
+
+                <div class="btns">
+                    <div class="btns-wrapper">
+                        <button class="scan_btn active">Scan</button>
+                        <button class="copy_btn">Copy</button>
+                    </div>
+                </div>
+
+                <div class="scan_content active">
+                    <div class="qr-wrap">
+                        <img src="../media/images/qrCode.png" alt="QR">
+                    </div>
+                    <button class="open_in_wallet">
+                        <a href="#" target="_blank">Open in Wallet</a>
+                    </button>
+                </div>
+
+                <div class="copy_content">
+                    <p class="info">To complete your payment, please send<br/>0.00041566 BTC to the address below.</p>
+                
+                    <div class="amounts-wrap">
+                        <div class="amount">
+                            <p>Amount</p>
+                            <h2 class="coin_amount">0.00041577 BTC</h2>
+                        </div>
+                        <div class="amount_link">
+                            <p>Amount</p>
+
+                            <div class="copy-link">
+                                <div class="svg-wrap">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_5_44)">
+                                        <path d="M0 13C0 20.1796 5.82042 26 13 26C20.1796 26 26 20.1796 26 13C26 5.82042 20.1796 0 13 0C5.82042 0 0 5.82042 0 13Z" fill="#FFC63D"/>
+                                        <g clip-path="url(#clip1_5_44)">
+                                        <path d="M18.822 11.6159C19.0475 10.0821 17.884 9.25204 16.2785 8.70169L16.8016 6.61756L15.5389 6.30178L15.0338 8.33177C14.7001 8.25058 14.3573 8.16938 14.0146 8.0972L14.5197 6.05818L13.2569 5.7424L12.7428 7.81751C12.4632 7.75435 12.1926 7.6912 11.931 7.62804V7.61902L10.1812 7.18595L9.84748 8.53929C9.84748 8.53929 10.7855 8.75582 10.7675 8.76484C11.2816 8.89115 11.3718 9.234 11.3538 9.50466L10.7585 11.8775C10.7945 11.8865 10.8396 11.8955 10.8938 11.9226C10.8487 11.9136 10.8036 11.9046 10.7585 11.8865L9.92866 15.2067C9.86552 15.3601 9.70317 15.5947 9.3514 15.5044C9.36042 15.5225 8.43139 15.2789 8.43139 15.2789L7.80002 16.7315L9.45061 17.1465C9.75728 17.2277 10.0549 17.2998 10.3526 17.3811L9.82944 19.4832L11.0922 19.799L11.6153 17.7149C11.9581 17.8051 12.3008 17.8953 12.6255 17.9765L12.1114 20.0516L13.3742 20.3674L13.8973 18.2652C16.062 18.6712 17.6856 18.5088 18.362 16.551C18.9122 14.9811 18.335 14.0699 17.1985 13.4744C18.0373 13.285 18.6597 12.7346 18.822 11.6159ZM15.9267 15.6759C15.5389 17.2457 12.8871 16.3976 12.0302 16.1811L12.7247 13.3932C13.5816 13.6098 16.3416 14.0338 15.9267 15.6759ZM16.3236 11.5888C15.9628 13.0233 13.762 12.2925 13.0495 12.1121L13.6808 9.58586C14.3934 9.76631 16.6934 10.1001 16.3236 11.5888Z" fill="white" fill-opacity="0.88"/>
+                                        </g>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_5_44">
+                                        <rect width="26" height="26" fill="white"/>
+                                        </clipPath>
+                                        <clipPath id="clip1_5_44">
+                                        <rect width="14.3" height="13.65" fill="white" transform="translate(5.85001 6.17499)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>    
+                                </div>
+
+                                <div class="border"></div>
+                                <input readonly type="text" class="amount_copy-link-input" value="bc1qjupycxn65mdcjsr4zsnmdsuc836wzec4vldhdy">
+                                <button type="button" copyInput="amount" class="copy-link-button">Copy</button>
+                            </div>
+                        </div>
+                        <div class="payment_link">
+                            <p>Payment link</p>
+
+                            <div class="copy-link">
+                                <div class="svg-wrap">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_5_44)">
+                                        <path d="M0 13C0 20.1796 5.82042 26 13 26C20.1796 26 26 20.1796 26 13C26 5.82042 20.1796 0 13 0C5.82042 0 0 5.82042 0 13Z" fill="#FFC63D"/>
+                                        <g clip-path="url(#clip1_5_44)">
+                                        <path d="M18.822 11.6159C19.0475 10.0821 17.884 9.25204 16.2785 8.70169L16.8016 6.61756L15.5389 6.30178L15.0338 8.33177C14.7001 8.25058 14.3573 8.16938 14.0146 8.0972L14.5197 6.05818L13.2569 5.7424L12.7428 7.81751C12.4632 7.75435 12.1926 7.6912 11.931 7.62804V7.61902L10.1812 7.18595L9.84748 8.53929C9.84748 8.53929 10.7855 8.75582 10.7675 8.76484C11.2816 8.89115 11.3718 9.234 11.3538 9.50466L10.7585 11.8775C10.7945 11.8865 10.8396 11.8955 10.8938 11.9226C10.8487 11.9136 10.8036 11.9046 10.7585 11.8865L9.92866 15.2067C9.86552 15.3601 9.70317 15.5947 9.3514 15.5044C9.36042 15.5225 8.43139 15.2789 8.43139 15.2789L7.80002 16.7315L9.45061 17.1465C9.75728 17.2277 10.0549 17.2998 10.3526 17.3811L9.82944 19.4832L11.0922 19.799L11.6153 17.7149C11.9581 17.8051 12.3008 17.8953 12.6255 17.9765L12.1114 20.0516L13.3742 20.3674L13.8973 18.2652C16.062 18.6712 17.6856 18.5088 18.362 16.551C18.9122 14.9811 18.335 14.0699 17.1985 13.4744C18.0373 13.285 18.6597 12.7346 18.822 11.6159ZM15.9267 15.6759C15.5389 17.2457 12.8871 16.3976 12.0302 16.1811L12.7247 13.3932C13.5816 13.6098 16.3416 14.0338 15.9267 15.6759ZM16.3236 11.5888C15.9628 13.0233 13.762 12.2925 13.0495 12.1121L13.6808 9.58586C14.3934 9.76631 16.6934 10.1001 16.3236 11.5888Z" fill="white" fill-opacity="0.88"/>
+                                        </g>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_5_44">
+                                        <rect width="26" height="26" fill="white"/>
+                                        </clipPath>
+                                        <clipPath id="clip1_5_44">
+                                        <rect width="14.3" height="13.65" fill="white" transform="translate(5.85001 6.17499)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+
+                                <div class="border"></div>
+                                <input readonly type="text"class="payment_copy-link-input" value="bc1qjupycxn65mdcjsr4zsnmdsuc836wzec4vldhdy">
+                                <button type="button" copyInput="payment" class="copy-link-button">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="recomended">Recommended fee: 3.654 sat/byte</p>
+            </div>
+        </div>
+        <script src="../scripts/script.js"></script>
+    </body>
+</html>

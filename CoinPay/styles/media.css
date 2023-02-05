@@ -1,0 +1,462 @@
+@media only screen and (max-width: 1440px) {
+    .container{
+        height: 120vh;
+    }
+    .what-happend{
+        height: 100vh;
+    }
+    .payment_container{
+        padding: 10vh 72px;
+    }
+    .payment_container .all-content-wraper{
+        padding: 0 3.5vw 0 4.5vw;
+    }
+    .payment_container .loading{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .container{
+        height: 150vh;
+    }
+    .copy_content .copy-link input{
+        font-size: 11px;
+    }
+    .what-happend{
+        height: 120vh;
+    }
+    .payment_container {
+        padding: 8vh 7.03vw;
+    }
+    .payment_container .title{
+        font-size: 32px;
+    }
+    .payment_container .url{
+        font-size: 14px;
+    }
+    .payment_container .payment_pay_with p{
+        font-size: 16px;
+    }
+    .payment_container .payment_pay_with .btns-wrapper button{
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .payment_container .all-content-wraper{
+        padding: 0;
+    }
+    .payment_container .order .order_number{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .payment_container .order .send{
+        font-size: 14px;
+    }
+    .payment_container .loading{
+        width: 44.92vw;
+    }
+    .payment_container .order .btc_sum{
+        font-size: 26px;
+    }
+    .payment_container .order .usd_sum{
+        font-size: 20px;
+    }
+    .payment_container .copy-link input{
+        font-size: 13px;
+    }
+    .payment_container .copy-link {
+        border-radius: 14px;
+        padding: 7px 12px;
+    }
+    .payment_container .time {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .payment_container .powered_by a{
+        font-size: 16px;
+    }
+    .payment_container .all-content-wraper .qr p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .container {
+        height: fit-content;
+    }
+    .content-wrapper{
+        box-shadow: none;
+        width: 100%;
+    }
+    .loader{
+        width: 18px;
+        height: 18px;
+    }
+    .loader div:after{
+        width: 16px;
+        height: 16px;
+    }
+    .copy_content .info{
+        font-size: 14px;
+    }
+    .copy_content .amounts-wrap div > p{
+        font-size: 12px;
+    }
+    .all-info p{
+        font-size: 14px;
+    }
+    .coin_info .site_url {
+        font-size: 14px;
+    }
+    .coin_info .right .balance{
+        font-size: 16px;
+    }
+    .coin_info .right .coin_value{
+        font-size: 13px;
+    }
+    .pay_with p {
+        font-size: 14px;
+    }
+    .pay_with .crypto p {
+        font-size: 15px;
+    }
+    .pay_with{
+        padding: 10px 15px;
+    }
+    .copy_content .copy-link input {
+        font-size: 13px;
+    }
+    .copy_content .copy-link .copy-link-button{
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+    .recomended{
+        font-size: 13px;
+    }
+    .copy_content {
+        padding: 0 15px 20px;
+    }
+    .what-happend .invoice_expired {
+        font-size: 15px;
+    }
+    .what-happend .text-content p,
+    .what-happend .return_btn button a{
+        font-size: 16px;
+    }
+    .payment_container .all-content-wraper .qr{
+        order: 1;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .payment_container .all-content-wraper{
+        flex-wrap: wrap;
+    }
+    .payment_container {
+        padding: 30px 15px 40px;
+        height: fit-content;
+    }
+    .payment_container .url {
+        font-size: 16px;
+    }
+    .payment_container .payment_pay_with p{
+        margin-right: 4.47vw;
+        font-size: 15px;
+    }
+    .payment_container .payment_pay_with .btns-wrapper{
+        width: 53.41vw;
+    }
+    .payment_container .order{
+        width: 100%;
+    }
+    .payment_container .order .order_number{
+        text-align: left;
+    }
+    .payment_container .order .send{
+        text-align: left;
+    }
+    .payment_container .order .send{
+        margin-bottom: 40px;
+    }
+    .payment_container .order .order_number{
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    .payment_container .order .usd_sum{
+        margin-bottom: 26px;
+    }
+    .payment_container .loading{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 22px;
+    }
+    .payment_container .all-content-wraper .qr .powered_by{
+        display: block;
+        margin-top: 40px;
+    }
+    .payment_container .order .powered_by{
+        display: none;
+    }
+    .payment_container .all-content-wraper .qr p {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 16px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 550px) and (min-height: 769px) {
+    .header {
+        padding: 1.76vw 2.93vw;
+    }
+    .header .logo{
+        width: 5vw;
+        height: 5vw;
+    }
+    .container {
+        height: 110vh;
+    }
+    .content-wrapper {
+        width: 60vw;
+    }
+    .await_payment{
+        font-size: 2.34vw;
+        padding: 1.56vw 2.93vw;
+    }
+    .loader{
+        width: 2.54vw;
+        height: 2.54vw;
+        margin-right: 14px;
+    }
+    .loader div:after{
+        width: 2.34vw;
+        height: 2.34vw;
+        border-right: 2px solid #FFFFFF;        
+    }
+    .pay_with{
+        padding: 1.95vw 2.93vw;
+    }
+    .pay_with p {
+        font-size: 2.15vw;
+    }
+    .pay_with .crypto p {
+        font-size: 2.34vw;
+    }
+    .coin_info {
+        padding: 2.44vw 2.93vw;
+    }
+    .coin_info .right .balance{
+        font-size: 2.34vw;
+    }
+    .coin_info .right .coin_value {
+        font-size: 2.15vw;
+        margin-top: 1vw;
+    }
+    .coin_info .site_url {
+        font-size: 2.15vw;
+    }
+    .coin_info .right .arrow {
+        font-size: 2.93vw;
+    }
+    .coin_info .right .coin-wrap {
+        margin-right: 2.73vw;
+    }
+    .all-info .order_amount, .all-info .network_cost, .all-info .already_paid, .all-info .due{
+        padding-left: 2.93vw;
+        padding-right: 2.93vw;
+    }
+    .all-info p{
+        font-size: 1.95vw;
+    }
+    .all-info.active{
+        max-height: 29.30vw;
+        margin-bottom: 3.13vw;
+    }
+    .all-info .order_amount {
+        padding-bottom: 1.95vw;
+        padding-top: 2.93vw;
+    }
+    .all-info .network_cost {
+        padding-bottom: 1.17vw;
+    }
+    .all-info .already_paid {
+        padding-bottom: 2.73vw;
+    }
+    .all-info .due {
+        padding-bottom: 2.93vw;
+    }
+    .btns .btns-wrapper button{
+        font-size: 2.54vw;
+    }
+    .btns {
+        padding: 0 2.93vw 0px;
+    }
+    .scan_content {
+        padding: 4.88vw 14.65vw 1.46vw;
+    }
+    .scan_content .open_in_wallet{
+        margin: 3.52vw 0 2.93vw;
+    }
+    .scan_content .open_in_wallet{
+        font-size: 2.34vw;
+    }
+    .recomended{
+        font-size: 1.95vw;
+    }
+    .copy_content .info {
+        font-size: 2.15vw;
+        padding: 5.86vw 0px;
+    }
+    .copy_content .amounts-wrap div > p{
+        font-size: 1.95vw;
+    }
+    .copy_content .amount .coin_amount {
+        font-size: 3.32vw;
+        margin-top: 2.34vw;
+    }
+    .copy_content .copy-link{
+        /* padding: 2.34vw 15px; */
+        margin-top: 2.34vw;
+    }
+    .copy_content{
+        padding: 0 37px 34px;
+    }
+    .copy_content .amount, .amount_link, .payment_link {
+        padding: 2.34vw 2.93vw;
+    }
+    .copy_content .copy-link, .payment_container .copy-link {
+        padding: 12px 14px;
+    }
+    .copy_content .copy-link input, .payment_container .copy-link input {
+        font-size: 2vw;
+        margin-right: 11px;
+    }
+    .copy_content .svg-wrap {
+        width: 4.39vw;
+        height: 3.42vw;
+    }
+    .pay_with .crypto svg {
+        margin-right: 10px;
+    }
+    .copy_content .copy-link .border, .payment_container .copy-link .border {
+        height: 26px;
+        width: 2px;
+        margin: 0px 10px;
+    }
+    .copy_content .copy-link .copy-link-button, .payment_container .copy-link .copy-link-button {
+        padding: 5px 15px;
+        font-size: 1.66vw;
+    }
+    .what-happend .invoice_expired{
+        padding: 2.34vw 2.93vw;
+        font-size: 2.34vw;
+    }
+    .what-happend .text-content {
+        padding: 3.13vw 4.88vw 4.69vw;
+    }
+    .what-happend .text-content h1 {
+        font-size: 3.71vw;
+        margin-bottom: 3.13vw;
+    }
+    .what-happend .text-content p {
+        font-size: 2.34vw;
+    }
+    .what-happend .return_btn button{
+        padding: 1.95vw 0;
+    }
+    .what-happend .return_btn button a {
+        font-size: 2.15vw;
+    }
+    .what-happend{
+        height: 100vh;
+    }
+    .payment_container .all-content-wraper .qr{
+        order: 1;
+    }
+    .payment_container .all-content-wraper{
+        flex-wrap: wrap;
+        max-width: 100vh;
+    }
+    .payment_container .all-content-wraper .qr{
+        width: 87vw;
+    }
+    .payment_container .url {
+        font-size: 2.34vw;
+        margin-bottom: 4.88vw;
+    }
+    .payment_container .title {
+        font-size: 4.30vw;
+    }
+    .payment_container .payment_pay_with{
+        margin-bottom: 9vw;
+    }
+    .payment_container .payment_pay_with p {
+        font-size: 2.73vw;
+    }
+    .payment_container .payment_pay_with .btns-wrapper button {
+        padding: 1.37vw 0;
+        font-size: 2.54vw;
+    }
+    .payment_container .payment_pay_with .btns-wrapper{
+        width: 36.13vw;
+    }
+    .payment_container .order {
+        width: 100%;
+    }
+    .payment_container .order .order_number {
+        font-size: 3.32vw;
+        margin-bottom: 2vw;
+        text-align: left;
+    }
+    .payment_container .order .send {
+        font-size: 2.54vw;
+        text-align: left;
+    }
+    .payment_container .order .send{
+        margin-bottom: 3.91vw;
+    }
+    .payment_container .order .btc_sum {
+        font-size: 4.10vw;
+        margin-bottom: 0.98vw;
+    }
+    .payment_container .order .usd_sum {
+        font-size: 2.93vw;
+        margin-bottom: 3.32vw;
+    }
+    .payment_container .svg-wrap {
+        width: 4.69vw;
+        height: 3.91vw;
+    }
+    .payment_container .copy-link .copy-link-button {
+        padding: 7px 2.34vw;
+        font-size: 2vw;
+    }
+    .payment_container .loading {
+        width: 100%;
+        height: 14px;
+        margin-top: 5.86vw;
+    }
+    .payment_container .time {
+        font-size: 2.34vw;
+        margin-bottom: 7vw;
+    }
+    .payment_container .all-content-wraper .qr .powered_by{
+        display: block;
+        margin-top: 7.81vw;
+    }
+    .payment_container .order .powered_by{
+        display: none;
+    }
+    .payment_container{
+        height: fit-content;
+    }
+    .payment_container .all-content-wraper .qr p {
+        font-size: 2.34vw;
+        text-align: center;
+    }
+    .payment_container .powered_by a {
+        font-size: 2.54vw;
+    }
+}
+
+
+
+
+
+
+
